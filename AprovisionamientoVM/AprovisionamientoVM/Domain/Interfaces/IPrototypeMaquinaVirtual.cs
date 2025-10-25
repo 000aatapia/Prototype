@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    internal class IPrototypeMaquinaVirtual
+    public interface IPrototypeMaquinaVirtual
     {
+        IPrototypeMaquinaVirtual Clonar();
     }
 }

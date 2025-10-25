@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Domain.Excepciones
 {
-    internal class IncoherenciaProveedorExcepcion
+    public class IncoherenciaProveedorExcepcion : Exception
     {
+        public IncoherenciaProveedorExcepcion(string mensaje) : base(mensaje)
+        {
+        }
+
+        public IncoherenciaProveedorExcepcion(string mensaje, Exception innerException)
+            : base(mensaje, innerException)
+        {
+        }
     }
 }

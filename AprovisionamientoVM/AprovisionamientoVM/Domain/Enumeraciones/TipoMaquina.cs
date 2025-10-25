@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Enumeraciones
 {
-    internal class TipoMaquina
+    public enum TipoMaquina
     {
+        Standard,
+        OptimizadaDisco,
+        OptimizadaMemoria
     }
 }

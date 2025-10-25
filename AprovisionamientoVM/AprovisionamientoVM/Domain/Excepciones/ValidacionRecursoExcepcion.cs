@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Domain.Excepciones
 {
-    internal class ValidacionRecursoExcepcion
+    public class ValidacionRecursoExcepcion : Exception
     {
+        public ValidacionRecursoExcepcion(string mensaje) : base(mensaje)
+        {
+        }
+
+        public ValidacionRecursoExcepcion(string mensaje, Exception innerException)
+            : base(mensaje, innerException)
+        {
+        }
     }
 }

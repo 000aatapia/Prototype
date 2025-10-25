@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Enumeraciones
 {
-    internal class ProveedorNube
+    public enum ProveedorNube
     {
+        AWS,
+        Azure,
+        GCP,
+        OnPremise
     }
 }
