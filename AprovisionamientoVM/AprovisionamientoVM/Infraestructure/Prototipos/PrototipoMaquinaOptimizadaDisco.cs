@@ -10,7 +10,7 @@ namespace Infraestructure.Prototipos
 {
     public class PrototipoMaquinaOptimizadaDisco : MaquinaVirtual
     {
-        public PrototipoMaquinaOptimizadaDisco(ProveedorNube proveedor, string tipoInstancia, int vcpus, int memoryGB)
+        public PrototipoMaquinaOptimizadaDisco(ProveedorNube proveedor, string tipoInstancia, int vcpus, int memoryGB, string regionDefecto)
         {
             Provider = proveedor;
             TipoMaquina = TipoMaquina.OptimizadaDisco;
@@ -18,32 +18,21 @@ namespace Infraestructure.Prototipos
             VCpus = vcpus;
             MemoryGB = memoryGB;
             MemoryOptimization = false;
-            DiskOptimization = true; 
+            DiskOptimization = true;
             KeyPairName = "default-key";
 
             Red = new Red
             {
                 Proveedor = proveedor,
-                Region = ObtenerRegionPorDefecto(proveedor),
+                Region = regionDefecto,
                 PublicIP = false
             };
+
             Almacenamiento = new Almacenamiento
             {
                 Proveedor = proveedor,
-                Region = ObtenerRegionPorDefecto(proveedor),
+                Region = regionDefecto,
                 Iops = 10000
-            };
-        }
-
-        private string ObtenerRegionPorDefecto(ProveedorNube proveedor)
-        {
-            return proveedor switch
-            {
-                ProveedorNube.AWS => "us-east-1",
-                ProveedorNube.Azure => "eastus",
-                ProveedorNube.GCP => "us-central1",
-                ProveedorNube.OnPremise => "datacenter-1",
-                _ => "default"
             };
         }
     }

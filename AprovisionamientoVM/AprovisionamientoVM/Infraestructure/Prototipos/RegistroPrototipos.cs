@@ -1,4 +1,5 @@
-﻿using Domain.Entidades;
+﻿using Application.Interfaces;
+using Domain.Entidades;
 using Domain.Enumeraciones;
 using Infraestructure.Configuraciones;
 using System;
@@ -9,81 +10,57 @@ using System.Threading.Tasks;
 
 namespace Infraestructure.Prototipos
 {
-    public class RegistroPrototipos
+    public class RegistroPrototipos : IRegistroPrototipos
     {
         private readonly Dictionary<string, MaquinaVirtual> _prototipos;
-        private readonly ConfiguracionInstanciasPorProveedor _configuracion;
 
-        public RegistroPrototipos(ConfiguracionInstanciasPorProveedor configuracion)
+        public RegistroPrototipos()
         {
-            _configuracion = configuracion;
             _prototipos = new Dictionary<string, MaquinaVirtual>();
             InicializarPrototipos();
         }
 
         private void InicializarPrototipos()
         {
-            RegistrarPrototiposAWS();
-
-            RegistrarPrototiposAzure();
-
-            RegistrarPrototiposGCP();
-
-            RegistrarPrototiposOnPremise();
-        }
-
-        private void RegistrarPrototiposAWS()
-        {
+            // AWS
             RegistrarPrototipo(new PrototipoMaquinaStandard(
-                ProveedorNube.AWS, "t3.medium", 2, 4));
-
+                ProveedorNube.AWS, "t3.medium", 2, 4, "us-east-1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaDisco(
-                ProveedorNube.AWS, "c5.large", 2, 4));
-
+                ProveedorNube.AWS, "c5.large", 2, 4, "us-east-1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaMemoria(
-                ProveedorNube.AWS, "r5.large", 2, 16));
-        }
+                ProveedorNube.AWS, "r5.large", 2, 16, "us-east-1"));
 
-        private void RegistrarPrototiposAzure()
-        {
+            // Azure
             RegistrarPrototipo(new PrototipoMaquinaStandard(
-                ProveedorNube.Azure, "D2s_v3", 2, 8));
-
+                ProveedorNube.Azure, "D2s_v3", 2, 8, "eastus"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaDisco(
-                ProveedorNube.Azure, "F2s_v2", 2, 4));
-
+                ProveedorNube.Azure, "F2s_v2", 2, 4, "eastus"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaMemoria(
-                ProveedorNube.Azure, "E2s_v3", 2, 16));
-        }
+                ProveedorNube.Azure, "E2s_v3", 2, 16, "eastus"));
 
-        private void RegistrarPrototiposGCP()
-        {
+            // GCP
             RegistrarPrototipo(new PrototipoMaquinaStandard(
-                ProveedorNube.GCP, "e2-standard-2", 2, 8));
-
+                ProveedorNube.GCP, "e2-standard-2", 2, 8, "us-central1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaDisco(
-                ProveedorNube.GCP, "n2-highcpu-2", 2, 2));
-
+                ProveedorNube.GCP, "n2-highcpu-2", 2, 2, "us-central1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaMemoria(
-                ProveedorNube.GCP, "n2-highmem-2", 2, 16));
-        }
+                ProveedorNube.GCP, "n2-highmem-2", 2, 16, "us-central1"));
 
-        private void RegistrarPrototiposOnPremise()
-        {
+            // OnPremise
             RegistrarPrototipo(new PrototipoMaquinaStandard(
-                ProveedorNube.OnPremise, "onprem-std1", 2, 4));
-
+                ProveedorNube.OnPremise, "onprem-std1", 2, 4, "datacenter-1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaDisco(
-                ProveedorNube.OnPremise, "onprem-cpu1", 2, 2));
-
+                ProveedorNube.OnPremise, "onprem-cpu1", 2, 2, "datacenter-1"));
             RegistrarPrototipo(new PrototipoMaquinaOptimizadaMemoria(
-                ProveedorNube.OnPremise, "onprem-mem1", 2, 16));
+                ProveedorNube.OnPremise, "onprem-mem1", 2, 16, "datacenter-1"));
         }
+
         private void RegistrarPrototipo(MaquinaVirtual prototipo)
         {
             var clave = GenerarClave(prototipo.Provider, prototipo.TipoMaquina);
             _prototipos[clave] = prototipo;
         }
+
         public MaquinaVirtual ObtenerPrototipo(ProveedorNube proveedor, TipoMaquina tipoMaquina)
         {
             var clave = GenerarClave(proveedor, tipoMaquina);
@@ -96,13 +73,10 @@ namespace Infraestructure.Prototipos
 
             return _prototipos[clave];
         }
+
         private string GenerarClave(ProveedorNube proveedor, TipoMaquina tipoMaquina)
         {
             return $"{proveedor}_{tipoMaquina}";
-        }
-        public Dictionary<string, MaquinaVirtual> ObtenerTodosLosPrototipos()
-        {
-            return new Dictionary<string, MaquinaVirtual>(_prototipos);
         }
     }
 }
