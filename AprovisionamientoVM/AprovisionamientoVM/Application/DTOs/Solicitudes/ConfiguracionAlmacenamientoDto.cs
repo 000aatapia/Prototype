@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.Solicitudes
 {
-    internal class ConfiguracionAlmacenamientoDto
+    public class ConfiguracionAlmacenamientoDto
     {
+        public string Region { get; set; } = string.Empty;
+        public int? Iops { get; set; }
     }
 }
