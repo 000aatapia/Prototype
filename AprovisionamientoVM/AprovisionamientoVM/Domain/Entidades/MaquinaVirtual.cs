@@ -23,11 +23,13 @@ namespace Domain.Entidades
         public Red Red { get; set; } = new Red();
         public Almacenamiento Almacenamiento { get; set; } = new Almacenamiento();
 
+
+
         public IPrototypeMaquinaVirtual Clonar()
         {
             return new MaquinaVirtual
             {
-                Id = Guid.NewGuid().ToString(), // Nuevo ID para el clon
+                Id = Guid.NewGuid().ToString(),
                 Provider = this.Provider,
                 VCpus = this.VCpus,
                 MemoryGB = this.MemoryGB,

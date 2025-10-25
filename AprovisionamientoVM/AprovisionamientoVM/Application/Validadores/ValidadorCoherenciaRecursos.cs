@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Domain.Entidades;
+using Domain.Excepciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,13 @@ using System.Threading.Tasks;
 
 namespace Application.Validadores
 {
-    internal class ValidadorCoherenciaRecursos
+    public class ValidadorCoherenciaRecursos
     {
+        public void ValidarMaquinaVirtual(MaquinaVirtual vm)
+        {
+            vm.Validar();
+            vm.ValidarCoherenciaProveedor();
+            vm.ValidarCoherenciaRegion();
+        }
     }
 }

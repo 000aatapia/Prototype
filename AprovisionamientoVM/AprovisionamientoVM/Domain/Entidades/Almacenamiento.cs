@@ -12,6 +12,8 @@ namespace Domain.Entidades
         public string Region { get; set; } = string.Empty;
         public int? Iops { get; set; }
         public ProveedorNube Proveedor { get; set; }
+
+
         public Almacenamiento Clonar()
         {
             return new Almacenamiento
