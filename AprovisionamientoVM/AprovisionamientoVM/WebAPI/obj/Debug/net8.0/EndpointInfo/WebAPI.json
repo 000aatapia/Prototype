@@ -1,0 +1,363 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API de Aprovisionamiento Multi-Cloud",
+    "description": "API REST para aprovisionamiento de máquinas virtuales usando el patrón Prototype",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Aprovisionamiento/maquinas-virtuales": {
+      "post": {
+        "tags": [
+          "Aprovisionamiento"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SolicitudCrearMaquinaVirtualDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SolicitudCrearMaquinaVirtualDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SolicitudCrearMaquinaVirtualDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaMaquinaVirtualDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Aprovisionamiento"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RespuestaMaquinaVirtualDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aprovisionamiento/maquinas-virtuales/{id}": {
+      "get": {
+        "tags": [
+          "Aprovisionamiento"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaMaquinaVirtualDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aprovisionamiento/proveedores/{proveedor}/instancias": {
+      "get": {
+        "tags": [
+          "Aprovisionamiento"
+        ],
+        "parameters": [
+          {
+            "name": "proveedor",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": { }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aprovisionamiento/health": {
+      "get": {
+        "tags": [
+          "Aprovisionamiento"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ConfiguracionAlmacenamientoDto": {
+        "type": "object",
+        "properties": {
+          "Region": {
+            "type": "string",
+            "nullable": true
+          },
+          "Iops": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConfiguracionRedDto": {
+        "type": "object",
+        "properties": {
+          "Region": {
+            "type": "string",
+            "nullable": true
+          },
+          "FirewallRules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "PublicIP": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleAlmacenamientoDto": {
+        "type": "object",
+        "properties": {
+          "Region": {
+            "type": "string",
+            "nullable": true
+          },
+          "Iops": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleRedDto": {
+        "type": "object",
+        "properties": {
+          "Region": {
+            "type": "string",
+            "nullable": true
+          },
+          "FirewallRules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "PublicIP": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "ProveedorNube": {
+        "enum": [
+          "AWS",
+          "Azure",
+          "GCP",
+          "OnPremise"
+        ],
+        "type": "string"
+      },
+      "RespuestaMaquinaVirtualDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "string",
+            "nullable": true
+          },
+          "Proveedor": {
+            "$ref": "#/components/schemas/ProveedorNube"
+          },
+          "TipoMaquina": {
+            "$ref": "#/components/schemas/TipoMaquina"
+          },
+          "TipoInstancia": {
+            "type": "string",
+            "nullable": true
+          },
+          "VCpus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MemoryGB": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MemoryOptimization": {
+            "type": "boolean"
+          },
+          "DiskOptimization": {
+            "type": "boolean"
+          },
+          "KeyPairName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Red": {
+            "$ref": "#/components/schemas/DetalleRedDto"
+          },
+          "Almacenamiento": {
+            "$ref": "#/components/schemas/DetalleAlmacenamientoDto"
+          },
+          "FechaCreacion": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SolicitudCrearMaquinaVirtualDto": {
+        "type": "object",
+        "properties": {
+          "Proveedor": {
+            "$ref": "#/components/schemas/ProveedorNube"
+          },
+          "TipoMaquina": {
+            "$ref": "#/components/schemas/TipoMaquina"
+          },
+          "TipoInstancia": {
+            "type": "string",
+            "nullable": true
+          },
+          "KeyPairName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Red": {
+            "$ref": "#/components/schemas/ConfiguracionRedDto"
+          },
+          "Almacenamiento": {
+            "$ref": "#/components/schemas/ConfiguracionAlmacenamientoDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoMaquina": {
+        "enum": [
+          "Standard",
+          "OptimizadaDisco",
+          "OptimizadaMemoria"
+        ],
+        "type": "string"
+      }
+    }
+  }
+}

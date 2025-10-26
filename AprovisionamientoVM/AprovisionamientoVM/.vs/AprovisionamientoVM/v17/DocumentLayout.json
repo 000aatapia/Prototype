@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\middleware\\manejadorexcepcionesglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\middleware\\manejadorexcepcionesglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\domain\\enumeraciones\\tipomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|solutionrelative:domain\\enumeraciones\\tipomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\dtos\\solicitudes\\solicitudcrearmaquinavirtualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\solicitudes\\solicitudcrearmaquinavirtualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\dtos\\solicitudes\\configuracionalmacenamientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\solicitudes\\configuracionalmacenamientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9261663E-8675-465F-A0A4-AE9D06ED02F7}|Infraestructure\\Infraestructure.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\infraestructure\\infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9261663E-8675-465F-A0A4-AE9D06ED02F7}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\webapi\\controllers\\aprovisionamientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8584ED46-5CCC-45A5-97E2-3A4146DE9B3A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\aprovisionamientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9261663E-8675-465F-A0A4-AE9D06ED02F7}|Infraestructure\\Infraestructure.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\infraestructure\\repositorios\\repositoriomaquinasvirtualesenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9261663E-8675-465F-A0A4-AE9D06ED02F7}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositorios\\repositoriomaquinasvirtualesenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,14 +111,6 @@
       "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\respuestas\\respuestamaquinavirtualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\dtos\\solicitudes\\solicitudcrearmaquinavirtualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\solicitudes\\solicitudcrearmaquinavirtualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\dtos\\solicitudes\\configuracionalmacenamientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\solicitudes\\configuracionalmacenamientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\application\\dtos\\solicitudes\\configuracionreddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{102E42F5-8E4A-4291-9F83-EFBD2789844F}|Application\\Application.csproj|solutionrelative:application\\dtos\\solicitudes\\configuracionreddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iprototypemaquinavirtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\domain\\enumeraciones\\tipomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|solutionrelative:domain\\enumeraciones\\tipomaquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|c:\\users\\0user\\source\\prototype\\aprovisionamientovm\\aprovisionamientovm\\domain\\enumeraciones\\proveedornube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C919CCD-7651-43D6-822E-5BABDFCD9576}|Domain\\Domain.csproj|solutionrelative:domain\\enumeraciones\\proveedornube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -110,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,20 +158,188 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T23:40:49.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T23:40:39.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:40:12.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManejadorExcepcionesGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Middleware\\ManejadorExcepcionesGlobal.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Middleware\\ManejadorExcepcionesGlobal.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Middleware\\ManejadorExcepcionesGlobal.cs",
+              "RelativeToolTip": "WebAPI\\Middleware\\ManejadorExcepcionesGlobal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:39:35.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfiguracionAlmacenamientoDto.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T22:20:43.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SolicitudCrearMaquinaVirtualDto.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T22:20:17.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoMaquina.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Enumeraciones\\TipoMaquina.cs",
+              "RelativeDocumentMoniker": "Domain\\Enumeraciones\\TipoMaquina.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Enumeraciones\\TipoMaquina.cs",
+              "RelativeToolTip": "Domain\\Enumeraciones\\TipoMaquina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T22:10:01.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebAPI",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T23:41:02.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Infraestructure",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Infraestructure.csproj",
+              "RelativeDocumentMoniker": "Infraestructure\\Infraestructure.csproj",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Infraestructure.csproj",
+              "RelativeToolTip": "Infraestructure\\Infraestructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T23:40:55.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T23:41:26.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebAPI",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T23:47:46.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T23:47:49.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AprovisionamientoController.cs",
+              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Controllers\\AprovisionamientoController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AprovisionamientoController.cs",
+              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\WebAPI\\Controllers\\AprovisionamientoController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AprovisionamientoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:38:14.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RepositorioMaquinasVirtualesEnMemoria.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Repositorios\\RepositorioMaquinasVirtualesEnMemoria.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositorios\\RepositorioMaquinasVirtualesEnMemoria.cs",
               "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Repositorios\\RepositorioMaquinasVirtualesEnMemoria.cs",
               "RelativeToolTip": "Infraestructure\\Repositorios\\RepositorioMaquinasVirtualesEnMemoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T23:35:26.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "PrototipoMaquinaStandard.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Prototipos\\PrototipoMaquinaStandard.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Prototipos\\PrototipoMaquinaStandard.cs",
@@ -143,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "PrototipoMaquinaOptimizadaDisco.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Prototipos\\PrototipoMaquinaOptimizadaDisco.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Prototipos\\PrototipoMaquinaOptimizadaDisco.cs",
@@ -155,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "PrototipoMaquinaOptimizadaMemoria.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Prototipos\\PrototipoMaquinaOptimizadaMemoria.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Prototipos\\PrototipoMaquinaOptimizadaMemoria.cs",
@@ -167,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "RegistroPrototipos.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Prototipos\\RegistroPrototipos.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Prototipos\\RegistroPrototipos.cs",
@@ -179,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "ConfiguracionInstanciasPorProveedor.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Infraestructure\\Configuraciones\\ConfiguracionInstanciasPorProveedor.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Configuraciones\\ConfiguracionInstanciasPorProveedor.cs",
@@ -191,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "ServicioAprovisionamiento.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Servicios\\Implementaciones\\ServicioAprovisionamiento.cs",
               "RelativeDocumentMoniker": "Application\\Servicios\\Implementaciones\\ServicioAprovisionamiento.cs",
@@ -203,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "IServicioAprovisionamiento.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Servicios\\Interfaces\\IServicioAprovisionamiento.cs",
               "RelativeDocumentMoniker": "Application\\Servicios\\Interfaces\\IServicioAprovisionamiento.cs",
@@ -215,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "MapeadorRecursos.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Mapeadores\\MapeadorRecursos.cs",
               "RelativeDocumentMoniker": "Application\\Mapeadores\\MapeadorRecursos.cs",
@@ -227,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "ValidadorCoherenciaRecursos.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Validadores\\ValidadorCoherenciaRecursos.cs",
               "RelativeDocumentMoniker": "Application\\Validadores\\ValidadorCoherenciaRecursos.cs",
@@ -239,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "IRepositorioMaquinasVirtuales.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Interfaces\\IRepositorioMaquinasVirtuales.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositorioMaquinasVirtuales.cs",
@@ -251,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "IRegistroPrototipos.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Interfaces\\IRegistroPrototipos.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRegistroPrototipos.cs",
@@ -263,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "IConfiguracionInstancias.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\Interfaces\\IConfiguracionInstancias.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IConfiguracionInstancias.cs",
@@ -275,31 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ConfiguracionAlmacenamientoDto.cs",
-              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
-              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\Solicitudes\\ConfiguracionAlmacenamientoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T22:20:43.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SolicitudCrearMaquinaVirtualDto.cs",
-              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
-              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\Solicitudes\\SolicitudCrearMaquinaVirtualDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T22:20:17.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "RespuestaMaquinaVirtualDto.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Respuestas\\RespuestaMaquinaVirtualDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Respuestas\\RespuestaMaquinaVirtualDto.cs",
@@ -311,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "ConfiguracionRedDto.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Application\\DTOs\\Solicitudes\\ConfiguracionRedDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Solicitudes\\ConfiguracionRedDto.cs",
@@ -323,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "IncoherenciaProveedorExcepcion.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Excepciones\\IncoherenciaProveedorExcepcion.cs",
               "RelativeDocumentMoniker": "Domain\\Excepciones\\IncoherenciaProveedorExcepcion.cs",
@@ -335,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "ValidacionRecursoExcepcion.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Excepciones\\ValidacionRecursoExcepcion.cs",
               "RelativeDocumentMoniker": "Domain\\Excepciones\\ValidacionRecursoExcepcion.cs",
@@ -347,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Almacenamiento.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Entidades\\Almacenamiento.cs",
               "RelativeDocumentMoniker": "Domain\\Entidades\\Almacenamiento.cs",
@@ -359,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "MaquinaVirtual.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Entidades\\MaquinaVirtual.cs",
               "RelativeDocumentMoniker": "Domain\\Entidades\\MaquinaVirtual.cs",
@@ -371,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "Red.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Entidades\\Red.cs",
               "RelativeDocumentMoniker": "Domain\\Entidades\\Red.cs",
@@ -383,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "IPrototypeMaquinaVirtual.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Interfaces\\IPrototypeMaquinaVirtual.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPrototypeMaquinaVirtual.cs",
@@ -395,19 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TipoMaquina.cs",
-              "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Enumeraciones\\TipoMaquina.cs",
-              "RelativeDocumentMoniker": "Domain\\Enumeraciones\\TipoMaquina.cs",
-              "ToolTip": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Enumeraciones\\TipoMaquina.cs",
-              "RelativeToolTip": "Domain\\Enumeraciones\\TipoMaquina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T22:10:01.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "ProveedorNube.cs",
               "DocumentMoniker": "C:\\Users\\0User\\source\\Prototype\\AprovisionamientoVM\\AprovisionamientoVM\\Domain\\Enumeraciones\\ProveedorNube.cs",
               "RelativeDocumentMoniker": "Domain\\Enumeraciones\\ProveedorNube.cs",

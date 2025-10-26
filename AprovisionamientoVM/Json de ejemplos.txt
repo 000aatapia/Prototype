@@ -1,0 +1,36 @@
+Ejemplo de solicitudes correctas.
+
+{
+  "proveedor": "GCP",
+  "tipoMaquina": "OptimizadaDisco",
+  "tipoInstancia": "n2-highcpu-4",
+  "keyPairName": "gcp-compute-key",
+  "red": {
+    "region": "us-central1",
+    "firewallRules": ["HTTP", "HTTPS"],
+    "publicIP": true
+  },
+  "almacenamiento": {
+    "region": "us-central1",
+    "iops": 12000
+  }
+}
+
+
+
+{
+  "proveedor": "Azure",
+  "tipoMaquina": "OptimizadaMemoria",
+  "tipoInstancia": "E4s_v3",
+  "keyPairName": "azure-key-prod",
+  "red": {
+    "region": "eastus",
+    "firewallRules": ["RDP", "SSH"],
+    "publicIP": false
+  },
+  "almacenamiento": {
+    "region": "eastus",
+    "iops": 8000
+  }
+}
+
